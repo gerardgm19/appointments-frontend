@@ -1,0 +1,128 @@
+{
+    "results": {
+        "reservation": [
+            {
+                "machid": "sc16033b0d51eb4c",
+                "legacyid": "COT00W2021111517000391173500212469",
+                "resid": "sc161856958840a0",
+                "memberid": "sc1604f610034bde",
+                "idnumber": "51598233X",
+                "resourceid": "sc16033b0d51eb4c",
+                "typologyTitle": "Traumatologia Y Cirugia Ortopedica",
+                "userids": [
+                    "sc1604f610034bde"
+                ],
+                "checkinCode": null,
+                "areaId": "sc15f99846d0d2de",
+                "insuranceTitle": "MAPFRE ESPAÑA",
+                "startDate": "15/11/2021",
+                "startTime": "17:04",
+                "patientName": "MARIA  ROSARIO GRAS LOBE",
+                "activityTitle": "Primera",
+                "doctorName": "Jens Jared Cardenas Salas"
+            },
+            {
+                "machid": "sc16033b0d51eb4c",
+                "legacyid": null,
+                "resid": "sc161716a4009baa",
+                "memberid": "sc1604f610034bde",
+                "idnumber": "51598233X",
+                "resourceid": "sc16033b0d51eb4c",
+                "typologyTitle": "Traumatologia Y Cirugia Ortopedica",
+                "userids": [
+                    "sc1604f610034bde"
+                ],
+                "checkinCode": null,
+                "areaId": "sc15f99846d0d2de",
+                "insuranceTitle": "MAPFRE ESPAÑA",
+                "startDate": "02/11/2021",
+                "startTime": "17:20",
+                "patientName": "MARIA  ROSARIO GRAS LOBE",
+                "activityTitle": "Primera",
+                "doctorName": "Jens Jared Cardenas Salas"
+            },
+            {
+                "machid": "sc15fa41670e69fd",
+                "legacyid": "COT00W2021110217200135140800212469",
+                "resid": "sc1618170192d2da",
+                "memberid": "sc1604f610034bde",
+                "idnumber": "51598233X",
+                "resourceid": "sc15fa41670e69fd",
+                "typologyTitle": "Traumatologia Y Cirugia Ortopedica",
+                "userids": [
+                    "sc1604f610034bde"
+                ],
+                "checkinCode": null,
+                "areaId": "sc15f99846d0d2de",
+                "insuranceTitle": "MAPFRE ESPAÑA",
+                "startDate": "02/11/2021",
+                "startTime": "18:00",
+                "patientName": "MARIA  ROSARIO GRAS LOBE",
+                "activityTitle": "Primera",
+                "doctorName": "Pablo Peñalver Andrada"
+            },
+            {
+                "machid": "sc16033b0d51eb4c",
+                "legacyid": "COT00W2021101118150391175900212469",
+                "resid": "sc161606cce10956",
+                "memberid": "sc1604f610034bde",
+                "idnumber": "51598233X",
+                "resourceid": "sc16033b0d51eb4c",
+                "typologyTitle": "Traumatologia Y Cirugia Ortopedica",
+                "userids": [
+                    "sc1604f610034bde"
+                ],
+                "checkinCode": null,
+                "areaId": "sc15f99846d0d2de",
+                "insuranceTitle": "MAPFRE ESPAÑA",
+                "startDate": "11/10/2021",
+                "startTime": "18:26",
+                "patientName": "MARIA  ROSARIO GRAS LOBE",
+                "activityTitle": "Primera",
+                "doctorName": "Jens Jared Cardenas Salas"
+            },
+            {
+                "machid": "sc16033b0d51eb4c",
+                "legacyid": "COT00W2021042017200135165800212469",
+                "resid": "sc1606c7d37d477d",
+                "memberid": "sc1604f610034bde",
+                "idnumber": "51598233X",
+                "resourceid": "sc16033b0d51eb4c",
+                "typologyTitle": "Traumatologia Y Cirugia Ortopedica",
+                "userids": [
+                    "sc1604f610034bde"
+                ],
+                "checkinCode": null,
+                "areaId": "sc15f99846d0d2de",
+                "insuranceTitle": "MAPFRE ESPAÑA",
+                "startDate": "20/04/2021",
+                "startTime": "17:29",
+                "patientName": "MARIA  ROSARIO GRAS LOBE",
+                "activityTitle": "Primera",
+                "doctorName": "Jens Jared Cardenas Salas"
+            },
+            {
+                "machid": "sc16033b0d51eb4c",
+                "legacyid": "COT00W2021032317000133152200212469",
+                "resid": "sc1604f61003ce55",
+                "memberid": "sc1604f610034bde",
+                "idnumber": "51598233X",
+                "resourceid": "sc16033b0d51eb4c",
+                "typologyTitle": "Traumatologia Y Cirugia Ortopedica",
+                "userids": [
+                    "sc1604f610034bde"
+                ],
+                "checkinCode": null,
+                "areaId": "sc15f99846d0d2de",
+                "insuranceTitle": "MAPFRE ESPAÑA",
+                "startDate": "23/03/2021",
+                "startTime": "17:53",
+                "patientName": "MARIA  ROSARIO GRAS LOBE",
+                "activityTitle": "Primera",
+                "doctorName": "Jens Jared Cardenas Salas"
+            }
+        ]
+    },
+    "result": "OK",
+    "tot_records": 6
+}
