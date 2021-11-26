@@ -13,30 +13,29 @@
   <h1 style="margin-left: 10px;">CITAS PENDIENTES</h1>
 </div>
 
-<div style="margin-top: 60px" *ngIf="cards.length != 0">
-  <div>
-    <mat-card *ngFor="let item of cards" class="example-card">
-      <mat-card-title>
-        {{item.doctorName}}
-      </mat-card-title>
-      <mat-card-subtitle>
-        {{item.typologyTitle}}
-      </mat-card-subtitle>
-      <mat-card-content>
-        <p>
-          Cita: {{item.activityTitle}}
-        </p>
-        <p>
-          Dia: {{item.startDate}}
-        </p>
-        <p>
-          Hora: {{item.startTime}}
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button class="sanitas-button" mat-button>CHECK-IN</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
+<div style="padding-top: 60px" *ngIf="cards.length != 0">
+  <mat-card *ngFor="let item of cards; let i = index" (click)="checkIn(i)" [class]="i==0 ? 'clickable': ''"
+    class="reservation-card">
+    <mat-card-title>
+      {{item.typologyTitle}}
+    </mat-card-title>
+    <mat-card-subtitle>
+      Cita con: {{item.doctorName}}
+    </mat-card-subtitle>
+    <mat-card-content>
+      <p>
+        Cita: {{item.activityTitle}}
+      </p>
+      <p>
+        Dia: {{item.startDate}}
+      </p>
+      <p>
+        Hora: {{item.startTime}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions *ngIf="i==0">
+      <button class="sanitas-button" mat-button>CHECK-IN</button>
+    </mat-card-actions>
+  </mat-card>
 </div>
 <router-outlet></router-outlet>
